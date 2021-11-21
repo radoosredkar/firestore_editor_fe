@@ -19,7 +19,11 @@
       >
         <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
           <q-list padding>
-            <q-item clickable v-ripple>
+            <q-item
+               to="/"
+               clickable
+               v-ripple
+            >
               <q-item-section avatar>
                 <q-icon name="view_list" />
               </q-item-section>
@@ -28,7 +32,11 @@
                 Databases
               </q-item-section>
             </q-item>
-            <q-item clickable v-ripple>
+            <q-item
+               to="/collections"
+               clickable
+               v-ripple
+            >
               <q-item-section avatar>
                 <q-icon name="view_list" />
               </q-item-section>
@@ -37,7 +45,11 @@
                 Collections
               </q-item-section>
             </q-item>
-            <q-item clickable v-ripple>
+            <q-item
+               to="/help"
+               clickable
+               v-ripple
+            >
               <q-item-section avatar>
                 <q-icon name="help" />
               </q-item-section>
